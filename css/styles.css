@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+/*       TAG SELECTORS    */
+
+
+/* Hide vertical scrollbar */
+ body::-webkit-scrollbar{
+  display: none; 
+ }
+
+
+
+
+/* TAG SELECTORS */
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  /* line-height: 1.5; */
+  size: 3rem;
+ 
+}
+
+h2{
+  font-size: 3rem;
+}
+
+.sniff{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  color: white;
+  font-size: 3rem;
+}
+
+h5{
+  font-size: 2rem;
+}                                                
+
+
+                                                  /* CLASS SELECTORS */
+
+ /* title */
+.container{
+  padding: 3% 15%;
+}
+.brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+.nav{
+  padding-bottom: 4.5rem;
+}
+.item{
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.brandz{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.down{
+  margin: 5% 3% 5% 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iphone{
+  transform: rotate(20deg);
+  width: 15%;
+  position: absolute;
+}
+
+
+
+
+/* features */
+
+.feat-para{
+  color: #8f8f8f;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+/* testimonial (caraousels) */
+ .test-image{
+  width: 10%; 
+  border-radius: 100%;
+ }
+
+ .item-car{
+  padding: 7% 15%;
+}
+
+/* press (tech-crunch) */
+.p-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pircing */
+.price-intro{
+  font-family: 'Ubuntu', sans-serif;
+  color: #8f8f8f;
+}
+
+
+/* cta (call to action) */
+.cta-button{
+  margin: 8% 2% 2% 2%;  
+}
+
+
+
+/* footer */
+
+.f-icon{
+  margin: 2%;
+}
+.c-right{
+  color: #8f8f8f;
+  margin-top: 5%;
+}
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+                                                /* ID SELECTORS */
+
+#title{
+  background-color: #ff4c68;
+}
+
+
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* testimonial */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/*  pricing */
+#pricing{
+  text-align: center;
+  padding: 5% 0%;
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+/* media queries */
+
+@media (max-width:995px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone{
+  transform: rotate(0deg);
+  width: 60%;
+  position: static;
+}
+}
